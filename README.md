@@ -19,7 +19,9 @@ curl -L --silent -k -v -H "Content-Type: application/json" -X POST -d "{ \"versi
 
 #### 2. Update redmine issue:
 Redmine issue filter id number:
+
 Create a issue filter in redmine and get filter id number.
+
 {You redmine url}/projects/{redmine project}/issues?query_id={filter id}
 
 ```
